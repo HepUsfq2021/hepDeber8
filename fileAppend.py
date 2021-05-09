@@ -1,11 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
-from scipy import integrate
-from scipy import stats
-import os
-import math
-from scipy.optimize import fmin
-import pylab 
 
 f1 = open("CMS_Run2011B_DoubleElectron_AOD_12Oct2013-v1_00000_file_index.txt", "r")
 f2 = open("parallel-Electron_example.yaml","a+")
