@@ -1,0 +1,10 @@
+10-May-2021 02:31:23 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+10-May-2021 02:31:26 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+10-May-2021 02:31:44 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+----- Begin Fatal Exception 10-May-2021 02:31:44 CEST-----------------------
+An exception of category 'Configuration' occurred while
+   [0] Constructing the EventProcessor
+   [1] Constructing module: class=LEDAnalysis label='led'
+Exception Message:
+MissingParameter: Parameter 'isData' not found.
+----- End Fatal Exception -------------------------------------------------
