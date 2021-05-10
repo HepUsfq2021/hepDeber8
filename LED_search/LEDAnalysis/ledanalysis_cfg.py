@@ -25,3 +25,8 @@ process.led = cms.EDAnalyzer('LEDAnalysis',InputCollection = cms.InputTag("gsfEl
 
 
 process.p = cms.Path(process.led)
+
+# Register fileservice for output file
+process.ledanalysis = cms.EDAnalyzer("LEDAnalysis", isData = cms.bool(True))
+process.TFileService = cms.Service(
+    "TFileService", fileName=cms.string("output.root"))
