@@ -1,10 +1,9 @@
-10-May-2021 03:47:31 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
-10-May-2021 03:47:35 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
-10-May-2021 03:47:53 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
------ Begin Fatal Exception 10-May-2021 03:47:53 CEST-----------------------
-An exception of category 'Configuration' occurred while
+10-May-2021 04:49:33 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+10-May-2021 04:49:36 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+10-May-2021 04:49:54 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+----- Begin Fatal Exception 10-May-2021 04:49:54 CEST-----------------------
+An exception of category 'PluginNotFound' occurred while
    [0] Constructing the EventProcessor
-   [1] Constructing module: class=LEDAnalysis label='led'
 Exception Message:
-MissingParameter: Parameter 'isData' not found.
+Unable to find plugin 'LEDAnalysis'. Please check spelling of name.
 ----- End Fatal Exception -------------------------------------------------

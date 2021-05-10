@@ -1,0 +1,39 @@
+10-May-2021 05:39:42 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+10-May-2021 05:39:45 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+Begin processing the 1st record. Run 163072, Event 9285637, LumiSection 19 at 10-May-2021 05:40:17.189 CEST
+21.3432================================AQUI===========================
+ Begin processing the 2nd record. Run 163072, Event 9308337, LumiSection 19 at 10-May-2021 05:40:17.258 CEST
+Begin processing the 3rd record. Run 163072, Event 9329578, LumiSection 19 at 10-May-2021 05:40:17.258 CEST
+10.3494================================AQUI===========================
+ Begin processing the 4th record. Run 163072, Event 9332990, LumiSection 19 at 10-May-2021 05:40:17.259 CEST
+40.935================================AQUI===========================
+ Begin processing the 5th record. Run 163072, Event 9351594, LumiSection 19 at 10-May-2021 05:40:17.259 CEST
+33.531================================AQUI===========================
+ Begin processing the 6th record. Run 163072, Event 9352036, LumiSection 19 at 10-May-2021 05:40:17.260 CEST
+17.9238================================AQUI===========================
+ Begin processing the 7th record. Run 163072, Event 9358713, LumiSection 19 at 10-May-2021 05:40:17.261 CEST
+29.7507================================AQUI===========================
+ 24.0723================================AQUI===========================
+ Begin processing the 8th record. Run 163072, Event 9373298, LumiSection 19 at 10-May-2021 05:40:17.261 CEST
+Begin processing the 9th record. Run 163072, Event 9378474, LumiSection 19 at 10-May-2021 05:40:17.262 CEST
+Begin processing the 10th record. Run 163072, Event 9399778, LumiSection 19 at 10-May-2021 05:40:17.262 CEST
+32.5479================================AQUI===========================
+ 10-May-2021 05:40:17 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/AOD/12Oct2013-v1/20000/0014CE62-9C3E-E311-8FCC-00261894389F.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3
